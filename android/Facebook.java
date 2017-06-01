@@ -53,5 +53,6 @@ public class Facebook extends Godot.SingletonBase {
         //FacebookSdk.setApplicationId("144807262731174");
         //FacebookSdk.sdkInitialize(app.getApplicationContext());
         logger = AppEventsLogger.newLogger(activity);
+        logger.activateApp(app);
     }
 }
